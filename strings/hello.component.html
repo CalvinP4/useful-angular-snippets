@@ -1,0 +1,9 @@
+<p>This is the child hello component!</p>
+{{myName}}
+{{bitwiseOr}}
+
+<!-- Below line does not work here in the template -->
+<!-- {{5|2}} -->
+
+<!-- Do not call functions directly from template, below function gets unnecessarily called during re-renders-->
+{{doSomeHeavyTask()}}
