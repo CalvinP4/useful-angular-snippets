@@ -1,0 +1,6 @@
+<!--Two way data binding with built in directives-->
+<input type="text" [value]="text" (input)="updateValue($event)"/>
+{{text}}
+
+<input type="text" [(ngModel)]="text2" />
+{{text2}}
